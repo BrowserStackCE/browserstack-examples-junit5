@@ -203,7 +203,7 @@ Following are the preconfigured test execution profiles available in the sample 
   <tr>
   <td>docker
    <br>
-   <img src="https://img.shields.io/badge/Require-OnDocker-blue"/>
+   <a href="#test-execution-prerequisites--1"><img src="https://img.shields.io/badge/Requires-OnDocker-blue"/></a>
    </td>
   <td>Runs a single test on a Firefox browser instance running in a Docker container.</td>
   <td><code>mvn test docker</code></td>
@@ -214,7 +214,7 @@ Following are the preconfigured test execution profiles available in the sample 
   <tr>
   <td>docker-parallel
    <br>
-   <img src="https://img.shields.io/badge/Require-OnDocker-blue"/>
+   <a href="#test-execution-prerequisites--1"><img src="https://img.shields.io/badge/Requires-OnDocker-blue"/></a>
    </td>
   <td>Concurrently runs the entire test suite on a number of Firefox browser instances running in a Docker container.</td>
   <td><code>mvn test docker-parallel</code></td>
@@ -225,7 +225,7 @@ Following are the preconfigured test execution profiles available in the sample 
  <tr>
   <td>bstack-single
   <br>
-   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   <a href="#test-execution-prerequisites--2"><img src="https://img.shields.io/badge/Requires-BrowserStackAutomate-orange"/></a>
   </td>
   <td>Runs a single test on a single browser on BrowserStack.</td>
   <td><code>mvn test bstack-single</code></td>
@@ -236,9 +236,9 @@ Following are the preconfigured test execution profiles available in the sample 
   <tr>
   <td>bstack-local
    <br>
-   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   <a href="#test-execution-prerequisites--2"><img src="https://img.shields.io/badge/Requires-BrowserStackAutomate-orange"/></a>
    <br>
-   <img src="https://img.shields.io/badge/Require-Local-yellow"/>
+   <a href="#test-execution-prerequisites--3"><img src="https://img.shields.io/badge/Requires-Local-yellow"/></a>
    </td>
   <td>Runs a single test on a single browser on BrowserStack (On a copy demo application hosted on your internal environment or local machine).</td>
   <td><code>mvn test bstack-local</code></td>
@@ -249,9 +249,9 @@ Following are the preconfigured test execution profiles available in the sample 
   <tr>
   <td>bstack-local-parallel
    <br>
-   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   <a href="#test-execution-prerequisites--2"><img src="https://img.shields.io/badge/Requires-BrowserStackAutomate-orange"/></a>
     <br>
-   <img src="https://img.shields.io/badge/Require-Local-yellow"/>
+   <a href="#test-execution-prerequisites--3"><img src="https://img.shields.io/badge/Requires-Local-yellow"/></a>
    </td>
   <td>Concurrently runs the entire test suite on a single Browser type on BrowserStack (On a copy demo application hosted on your internal environment or local machine).</td>
   <td><code>mvn test bstack-local-parallel</code></td>
@@ -262,9 +262,9 @@ Following are the preconfigured test execution profiles available in the sample 
  <tr>
   <td>bstack-local-parallel-browsers
   <br>
-   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   <a href="#test-execution-prerequisites--2"><img src="https://img.shields.io/badge/Requires-BrowserStackAutomate-orange"/></a>
     <br>
-   <img src="https://img.shields.io/badge/Require-Local-yellow"/>
+   <a href="#test-execution-prerequisites--3"><img src="https://img.shields.io/badge/Requires-Local-yellow"/></a>
   </td>
   <td>Concurrently runs the entire test suite on a number of device/browser types on BrowserStack (On a copy demo application hosted on your internal environment or local machine).</td>
   <td><code>mvn test bstack-local-parallel-browsers</code></td>
@@ -275,7 +275,7 @@ Following are the preconfigured test execution profiles available in the sample 
   <tr>
   <td>bstack-parallel
    <br>
-   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   <a href="#test-execution-prerequisites--2"><img src="https://img.shields.io/badge/Requires-BrowserStackAutomate-orange"/></a>
    </td>
   <td>Concurrently runs the entire test suite on a single Browser type on BrowserStack.</td>
   <td><code>mvn test bstack-parallel</code></td>
@@ -286,7 +286,7 @@ Following are the preconfigured test execution profiles available in the sample 
    <tr>
   <td>bstack-parallel-browsers
     <br>
-   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   <a href="#test-execution-prerequisites--2"><img src="https://img.shields.io/badge/Requires-BrowserStackAutomate-orange"/></a>
     </td>
   <td>Concurrently runs the entire test suite on a number of device/browser types on BrowserStack.</td>
   <td><code>mvn test bstack-parallel-browsers</code></td>
