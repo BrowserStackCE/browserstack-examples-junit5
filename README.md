@@ -171,11 +171,11 @@ Following are the preconfigured test execution profiles available in the sample 
   <th width='10%'>Description</th>
   <th width='10%'>Maven Command
   <br>
-   <a href="#setup-with-maven-"><img src="https://img.shields.io/badge/Require-Maven-indigo"/></a>
+   <a href="#setup-with-maven-"><img src="https://img.shields.io/badge/Requires-Maven-indigo"/></a>
   </th>
   <th width='10%'>Gradle Command
   <br>
-   <a href="#setup-with-gradle-"><img src="https://img.shields.io/badge/Require-Gradle-green"/></a>
+   <a href="#setup-with-gradle-"><img src="https://img.shields.io/badge/Requires-Gradle-green"/></a>
   </th>
   <th width='10%'>Configuration File</th>
  </tr>
