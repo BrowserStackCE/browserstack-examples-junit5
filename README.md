@@ -171,18 +171,18 @@ Following are the preconfigured test execution profiles available in the sample 
   <th width='10%'>Description</th>
   <th width='10%'>Maven Command
   <br>
-   <img src="https://img.shields.io/badge/Require-Maven-indigo"/>
+   <a href="#setup-with-maven-"><img src="https://img.shields.io/badge/Require-Maven-indigo"/></a>
   </th>
   <th width='10%'>Gradle Command
   <br>
-   <img src="https://img.shields.io/badge/Require-Gradle-green"/>
+   <a href="#setup-with-gradle-"><img src="https://img.shields.io/badge/Require-Gradle-green"/></a>
   </th>
   <th width='10%'>Configuration File</th>
  </tr>
  <tr>
   <td>on-prem
    <br>
-   <a href="#test-execution-prerequisites--1"><img src="https://img.shields.io/badge/Requires-OnPrem-green"/>
+   <a href="#test-execution-prerequisites-"><img src="https://img.shields.io/badge/Requires-OnPrem-green"/></a>
   </td>
   <td>Runs a single test on a Chrome browser instance on your own machine.</td>
   <td><code>mvn test on-prem</code></td>
@@ -192,7 +192,7 @@ Following are the preconfigured test execution profiles available in the sample 
   <tr>
   <td>on-prem-suite
    <br>
-   <img src="https://img.shields.io/badge/Require-OnPrem-green"/>
+   <a href="#test-execution-prerequisites-"><img src="https://img.shields.io/badge/Requires-OnPrem-green"/></a>
    </td>
   <td>Runs the entire test suite sequentially on Chrome browser instances, on your own machine.</td>
   <td><code>mvn test on-prem-suite</code></td>
