@@ -167,21 +167,33 @@ Following are the preconfigured test execution profiles available in the sample 
   
 <table>
  <tr>
-  <th width='10%'>Profile</th>
+  <th width='12%'>Profile</th>
   <th width='10%'>Description</th>
-  <th width='10%'>Maven Command</th>
-  <th width='10%'>Gradle Command</th>
+  <th width='10%'>Maven Command
+  <br>
+   <img src="https://img.shields.io/badge/Require-Maven-indigo"/>
+  </th>
+  <th width='10%'>Gradle Command
+  <br>
+   <img src="https://img.shields.io/badge/Require-Gradle-green"/>
+  </th>
   <th width='10%'>Configuration File</th>
  </tr>
  <tr>
-  <td>on-prem</td>
+  <td>on-prem
+   <br>
+   <img src="https://img.shields.io/badge/Require-OnPrem-green"/>
+  </td>
   <td>Runs a single test on a Chrome browser instance on your own machine.</td>
   <td><code>mvn test on-prem</code></td>
   <td><code>gradle on-prem</code></td>
   <td>capabilities-on-prem.yml</td>
  </tr>
   <tr>
-  <td>on-prem-suite</td>
+  <td>on-prem-suite
+   <br>
+   <img src="https://img.shields.io/badge/Require-OnPrem-green"/>
+   </td>
   <td>Runs the entire test suite sequentially on Chrome browser instances, on your own machine.</td>
   <td><code>mvn test on-prem-suite</code></td>
   <td><code>gradle on-prem-suite</code></td>
@@ -189,7 +201,10 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
   <tr>
-  <td>docker</td>
+  <td>docker
+   <br>
+   <img src="https://img.shields.io/badge/Require-OnDocker-blue"/>
+   </td>
   <td>Runs a single test on a Firefox browser instance running in a Docker container.</td>
   <td><code>mvn test docker</code></td>
   <td><code>gradle docker</code></td>
@@ -197,7 +212,10 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
   <tr>
-  <td>docker-parallel</td>
+  <td>docker-parallel
+   <br>
+   <img src="https://img.shields.io/badge/Require-OnDocker-blue"/>
+   </td>
   <td>Concurrently runs the entire test suite on a number of Firefox browser instances running in a Docker container.</td>
   <td><code>mvn test docker-parallel</code></td>
   <td><code>gradle docker-parallel</code></td>
@@ -205,7 +223,10 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
  <tr>
-  <td>bstack-single</td>
+  <td>bstack-single
+  <br>
+   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+  </td>
   <td>Runs a single test on a single browser on BrowserStack.</td>
   <td><code>mvn test bstack-single</code></td>
   <td><code>gradle bstack-single</code></td>
@@ -213,7 +234,12 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
   <tr>
-  <td>bstack-local</td>
+  <td>bstack-local
+   <br>
+   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   <br>
+   <img src="https://img.shields.io/badge/Require-Local-yellow"/>
+   </td>
   <td>Runs a single test on a single browser on BrowserStack (On a copy demo application hosted on your internal environment or local machine).</td>
   <td><code>mvn test bstack-local</code></td>
   <td><code>gradle bstack-local</code></td>
@@ -221,7 +247,12 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
   <tr>
-  <td>bstack-local-parallel</td>
+  <td>bstack-local-parallel
+   <br>
+   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+    <br>
+   <img src="https://img.shields.io/badge/Require-Local-yellow"/>
+   </td>
   <td>Concurrently runs the entire test suite on a single Browser type on BrowserStack (On a copy demo application hosted on your internal environment or local machine).</td>
   <td><code>mvn test bstack-local-parallel</code></td>
   <td><code>gradle bstack-local-parallel</code></td>
@@ -229,7 +260,12 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
  <tr>
-  <td>bstack-local-parallel-browsers</td>
+  <td>bstack-local-parallel-browsers
+  <br>
+   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+    <br>
+   <img src="https://img.shields.io/badge/Require-Local-yellow"/>
+  </td>
   <td>Concurrently runs the entire test suite on a number of device/browser types on BrowserStack (On a copy demo application hosted on your internal environment or local machine).</td>
   <td><code>mvn test bstack-local-parallel-browsers</code></td>
   <td><code>gradle bstack-local-parallel-browsers</code></td>
@@ -237,7 +273,10 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
   <tr>
-  <td>bstack-parallel</td>
+  <td>bstack-parallel
+   <br>
+   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+   </td>
   <td>Concurrently runs the entire test suite on a single Browser type on BrowserStack.</td>
   <td><code>mvn test bstack-parallel</code></td>
   <td><code>gradle bstack-parallel</code></td>
@@ -245,7 +284,10 @@ Following are the preconfigured test execution profiles available in the sample 
  </tr>
  
    <tr>
-  <td>bstack-parallel-browsers</td>
+  <td>bstack-parallel-browsers
+    <br>
+   <img src="https://img.shields.io/badge/Require-BrowserStackAutomate-orange"/>
+    </td>
   <td>Concurrently runs the entire test suite on a number of device/browser types on BrowserStack.</td>
   <td><code>mvn test bstack-parallel-browsers</code></td>
   <td><code>gradle bstack-parallel-browsers</code></td>
