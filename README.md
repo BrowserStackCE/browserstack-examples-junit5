@@ -84,15 +84,17 @@ The repository is also designed to execute on both public as well as a locally h
 
  ## Configuring Concurrency Parameters ![Maven](https://img.shields.io/badge/With-maven-indigo) ![Gradle](https://img.shields.io/badge/With-gradle-green)
 
-On a selenium Grid such as BrowserStack Automate or the one hosted on container such as Docker, you can spin multiple browser instances in parallel to reduce your over all build time. With JUnit 5 and Maven or Gradle you configure the number concurrent executions to an optimal count. In the sample POM or Gradle builld file in the repository it is set to a value 5 with <code>junit.jupiter.execution.parallel.config.fixed.parallelism</code> property. All such JUnit 5 configurations are gouped in these files together. Change these values as per your convenience to achieve the level of concurrency you desire.
+On BrowserStack Automate, you can spin multiple browser instances in parallel to reduce your over all build time. With JUnit 5 you configure the number concurrent test executions to an optimal count. In the sample POM or Gradle builld file in the repository it is set to a value 5 using the  <code>junit.jupiter.execution.parallel.config.fixed.parallelism</code> property. All such JUnit 5 configurations are gouped in these files together. Change these values as per your convenience to achieve the level of concurrency you desire.
 
  # :rocket:  [Test Execution](https://github.com/browserstack/browserstack-examples-junit5#testexecution)
  
- ## Test Execution Prerequisites ![OnPrem](https://img.shields.io/badge/For-OnPrem-green)
-
-For this infrastructure configuration (i.e on-premise), create the drivers folder at /src/test/resources and ensure that the ChromeDriver executable is placed in the /src/test/resources/drivers folder.
-
-Note: The ChromeDriver version must match the Chrome browser version on your machine.
+ ## Test Execution Prerequisites [![OnPrem](https://img.shields.io/badge/For-OnPrem-green)]()
+ 
+ :pushpin: Install [Chrome Driver](https://chromedriver.chromium.org/).
+ <br>
+ :pushpin: Install [Chrome Browser](https://www.google.com/chrome/).
+ <br>
+ :pushpin: Add the path of Chrome Driver in on-prem configuration fies [capabilities-on-prem.yml](/src/test/resources/capabilities-on-prem.yml) and [capabilities-on-prem-suite.yml](/src/test/resources/capabilities-on-prem-suite.yml) as <code>driverPath</code>.
 
  ## Test Execution Prerequisites ![OnDocker](https://img.shields.io/badge/For-OnDocker-blue)
  
