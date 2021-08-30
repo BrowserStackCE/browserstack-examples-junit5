@@ -145,7 +145,7 @@ On BrowserStack Automate, you can spin multiple browser instances in parallel to
  :pushpin: Clone the [BrowserStack demo application](https://github.com/browserstack/browserstack-demo-app) repository.
  <br/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <code>git clone https://github.com/browserstack/browserstack-demo-app</code>
+ <code>git clone git@github.com:browserstack/browserstack-demo-app.git</code>
   <br/><br/>
   :pushpin: Please follow the README.md on the BrowserStack demo application repository to install and start the dev server on localhost.
    <br/><br/>
