@@ -182,7 +182,7 @@ Following are the preconfigured test execution profiles available in the sample 
  <tr>
   <td>on-prem
    <br>
-   <img src="https://img.shields.io/badge/Require-OnPrem-green"/>
+   <a href="#test-execution-prerequisites--1"><img src="https://img.shields.io/badge/Requires-OnPrem-green"/>
   </td>
   <td>Runs a single test on a Chrome browser instance on your own machine.</td>
   <td><code>mvn test on-prem</code></td>
