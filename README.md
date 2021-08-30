@@ -91,18 +91,30 @@ On BrowserStack Automate, you can spin multiple browser instances in parallel to
  ## Test Execution Prerequisites [![OnPrem](https://img.shields.io/badge/For-OnPrem-green)]()
  
  :pushpin: Install [Chrome Driver](https://chromedriver.chromium.org/).
- <br>
+ <br/> <br/>
  :pushpin: Install [Chrome Browser](https://www.google.com/chrome/).
- <br>
+ <br/> <br/>
  :pushpin: Add the path of Chrome Driver in on-prem configuration fies [capabilities-on-prem.yml](/src/test/resources/capabilities-on-prem.yml) and [capabilities-on-prem-suite.yml](/src/test/resources/capabilities-on-prem-suite.yml) as <code>driverPath</code>.
 
  ## Test Execution Prerequisites ![OnDocker](https://img.shields.io/badge/For-OnDocker-blue)
  
-Run <code>docker-compose pull</code> from the current directory of the repository.
- 
-Start the Docker by running the following command:
- 
+ :pushpin: Install [Docker](https://www.docker.com/).
+ <br/> <br/>
+ :pushpin: Navigate to the repository directory.
+ <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <code>cd browserstack-examples-junit5</code>
+ <br/> <br/>
+ :pushpin: Install the required docker images
+  <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <code>docker-compose pull</code>
+ <br/> <br/>
+ :pushpin: Start the docker containers with selenium hub and browser nodes
+  <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <code>docker-compose up -d</code>
+ <br/> <br/>
 
  ## Test Execution Prerequisites ![BrowserStack](https://img.shields.io/badge/For-BrowserStackAutomate-orange)
  
