@@ -96,7 +96,7 @@ On BrowserStack Automate, you can spin multiple browser instances in parallel to
  <br/> <br/>
  :pushpin: Add the path of Chrome Driver in on-prem configuration fies [capabilities-on-prem.yml](/src/test/resources/capabilities-on-prem.yml) and [capabilities-on-prem-suite.yml](/src/test/resources/capabilities-on-prem-suite.yml) as <code>driverPath</code>.
 
- ## Test Execution Prerequisites ![OnDocker](https://img.shields.io/badge/For-OnDocker-blue)
+ ## Test Execution Prerequisites [![OnDocker](https://img.shields.io/badge/For-OnDocker-blue)]()
  
  :pushpin: Install [Docker](https://www.docker.com/).
  <br/> <br/>
@@ -116,12 +116,14 @@ On BrowserStack Automate, you can spin multiple browser instances in parallel to
  <code>docker-compose up -d</code>
  <br/> <br/>
 
- ## Test Execution Prerequisites ![BrowserStack](https://img.shields.io/badge/For-BrowserStackAutomate-orange)
+ ## Test Execution Prerequisites [![BrowserStack](https://img.shields.io/badge/For-BrowserStackAutomate-orange)]()
  
- - Create a new [BrowserStack account](https://www.browserstack.com/users/sign_up) or use an existing one.
-- Identify your BrowserStack username and access key from the [BrowserStack Automate Dashboard](https://automate.browserstack.com/) and export them as environment variables using the below commands.
-
-  - For \*nix based and Mac machines:
+ :pushpin: Create a new [BrowserStack account](https://www.browserstack.com/users/sign_up) or use an existing one.
+ <br/> <br/>
+ :pushpin: Identify your BrowserStack username and access key from the [BrowserStack Automate Dashboard](https://automate.browserstack.com/) and export them as environment variables using the below commands.
+ <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  - For Unix-like or Mac machines:
 
   ```sh
   export BROWSERSTACK_USERNAME=<browserstack-username> &&
@@ -135,21 +137,21 @@ On BrowserStack Automate, you can spin multiple browser instances in parallel to
   set BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
   ```
 
-  Alternatively, you can also hardcode username and access_key objects in the [caps.json](resources/conf/caps/caps.json) file.
+  Alternatively, you can also add your username and access_key objects in the cloud driver [configuration files](/src/test/resources).
 
-Note:
-- We have configured a list of test capabilities in the [caps.json](resources/conf/caps/caps.json) file. You can certainly update them based on your device / browser test requirements.
-- The exact test capability values can be easily identified using the [Browserstack Capability Generator](https://browserstack.com/automate/capabilities)
+:page_facing_up: Note: We have configured a list of test capabilities in these [configuration files](/src/test/resources). You are free update them based on your device or browser test requirements. The exact test capability values can be easily identified using the [Browserstack Capability Generator](https://browserstack.com/automate/capabilities)
 
  ## Test Execution Prerequisites ![Local](https://img.shields.io/badge/For-Local-yellow)
- - Clone the [BrowserStack demo application](https://github.com/browserstack/browserstack-demo-app) repository.
-  ```sh
-  git clone https://github.com/browserstack/browserstack-demo-app
-  ``` 
-- Please follow the README.md on the BrowserStack demo application repository to install and start the dev server on localhost.
-- In this section, we will run a single test case to test the BrowserStack Demo app hosted on your local machine i.e. localhost. Refer to the `single_local` object in `caps.json` file to change test capabilities for this configuration.
-- Note: You may need to provide additional BrowserStackLocal arguments to successfully connect your localhost environment with BrowserStack infrastructure. (e.g if you are behind firewalls, proxy or VPN).
-- Further details for successfully creating a BrowserStackLocal connection can be found here:
+ :pushpin: Clone the [BrowserStack demo application](https://github.com/browserstack/browserstack-demo-app) repository.
+ <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <code>git clone https://github.com/browserstack/browserstack-demo-app</code>
+  <br/><br/>
+  :pushpin: Please follow the README.md on the BrowserStack demo application repository to install and start the dev server on localhost.
+   <br/><br/>
+ :page_facing_up: Note: You may need to provide additional BrowserStackLocal arguments to successfully connect your localhost environment with BrowserStack infrastructure. (e.g if you are behind firewalls, proxy or VPN).
+ 
+ Further details for successfully creating a BrowserStackLocal connection can be found here:
 
   - [Local Testing with Automate](https://www.browserstack.com/local-testing/automate)
   - [BrowserStackLocal Java GitHub](https://github.com/browserstack/browserstack-local-java)
