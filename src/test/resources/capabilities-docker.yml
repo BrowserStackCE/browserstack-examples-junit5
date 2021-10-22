@@ -1,5 +1,3 @@
-name : Docker
-
 testEndpoint: https://bstackdemo.com
 
 driverType: onPremGridDriver

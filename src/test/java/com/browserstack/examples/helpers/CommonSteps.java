@@ -1,6 +1,6 @@
 package com.browserstack.examples.helpers;
 
-import com.browserstack.examples.config.WebDriverFactory;
+import com.browserstack.webdriver.core.WebDriverFactory;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

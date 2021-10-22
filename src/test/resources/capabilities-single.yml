@@ -1,13 +1,11 @@
-name : BStackSingle
-
 testEndpoint: https://bstackdemo.com
 
 driverType: cloudDriver
 
 cloudDriver:
   hubUrl: https://hub-cloud.browserstack.com/wd/hub
-  user: BROWSERSTACK_USERNAME
-  accessKey: BROWSERSTACK_ACCESSKEY
+  user: raveendratudangi5
+  accessKey: xBv78saWwrNBEaJBTXwu
   localTunnel:
     enable: false
   common_capabilities:
@@ -22,14 +20,3 @@ cloudDriver:
       os: Windows
       os_version: '10'
       browser: Chrome
-specific_capabilities:
-  apply_auth_mask:
-    - browserstack.maskBasicAuth: true
-  apply_command_mask:
-    - browserstack.maskCommands: setValues, getValues, setCookies, getCookies
-  debug_test:
-    - browserstack.debug: true
-      browserstack.console: verbose
-      browserstack.networkLogs: true
-      browserstack.video: true
-      browserstack.seleniumLogs: true

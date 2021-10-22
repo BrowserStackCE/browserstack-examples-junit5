@@ -1,10 +1,10 @@
 package com.browserstack.examples.tests.user;
 
 import com.browsersatck.examples.utils.UserCredentialUtil;
-import com.browserstack.examples.extensions.WebDriverTest;
 import com.browserstack.examples.helpers.CommonSteps;
 import com.browserstack.examples.helpers.Constants;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
+import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
@@ -20,7 +20,7 @@ public class ImageTest {
     private static final String IMAGE_NOT_LOADING_ACCOUNT_USER_NAME = "image_not_loading_user";
 
     @Severity(SeverityLevel.MINOR)
-    @WebDriverTest(capabilities = {"apply_command_mask"})
+    @WebDriverTest
     public void imageLoadingTest(WebDriver webDriver) {
         CommonSteps.navigateToHome(webDriver);
         signIntoImageNotLoadingAccount(webDriver);

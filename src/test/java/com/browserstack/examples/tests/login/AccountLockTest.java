@@ -1,9 +1,9 @@
 package com.browserstack.examples.tests.login;
 
 import com.browsersatck.examples.utils.UserCredentialUtil;
-import com.browserstack.examples.extensions.WebDriverTest;
 import com.browserstack.examples.helpers.CommonSteps;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
+import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
@@ -24,7 +24,7 @@ public class AccountLockTest {
     private static final String LOCKED_ACCOUNT_USER_NAME = "locked_user";
 
     @Severity(SeverityLevel.BLOCKER)
-    @WebDriverTest(capabilities = {"apply_command_mask"})
+    @WebDriverTest
     public void lockMessageTest(WebDriver webDriver) {
         CommonSteps.navigateToHome(webDriver);
         signIntoLockedAccount(webDriver);

@@ -2,8 +2,8 @@ package com.browserstack.examples.tests.user;
 
 import com.browsersatck.examples.utils.UserCredentialUtil;
 import com.browsersatck.examples.utils.WebDriverWaitUtil;
-import com.browserstack.examples.extensions.WebDriverTest;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
+import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
@@ -25,7 +25,7 @@ public class FavouritesTest {
     private static final String EXISTING_ORDERS_ACCOUNT_USER_NAME = "existing_orders_user";
 
     @Severity(SeverityLevel.TRIVIAL)
-    @WebDriverTest(capabilities = {"apply_command_mask"})
+    @WebDriverTest
     public void favouritesCountTest(WebDriver webDriver) {
         navigateToHome(webDriver);
         signIntoExistingOrdersAccount(webDriver);

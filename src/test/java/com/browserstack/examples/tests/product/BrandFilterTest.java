@@ -1,7 +1,7 @@
 package com.browserstack.examples.tests.product;
 
-import com.browserstack.examples.extensions.WebDriverTest;
 import com.browserstack.examples.helpers.ProductUtil;
+import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;

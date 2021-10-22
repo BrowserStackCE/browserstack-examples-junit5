@@ -2,10 +2,10 @@ package com.browserstack.examples.tests.e2e;
 
 import com.browsersatck.examples.pages.*;
 import com.browsersatck.examples.utils.LoggedInNavBarComponent;
-import com.browserstack.examples.config.WebDriverFactory;
-import com.browserstack.examples.extensions.WebDriverTest;
 import com.browserstack.examples.helpers.Constants;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
+import com.browserstack.webdriver.core.WebDriverFactory;
+import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -23,7 +23,7 @@ public class PurchaseTest {
 
     @Severity(SeverityLevel.CRITICAL)
     @Story(Constants.AllureTags.STORY_PURCHASE)
-    @WebDriverTest(capabilities = {"apply_command_mask"})
+    @WebDriverTest
     public void orderPlacementTest(WebDriver webDriver) {
         HomePage homePage = new HomePage(WebDriverFactory.getInstance().getTestEndpoint(), webDriver);
         ElementLocatorUtil.waitUntilTitleIs(webDriver, Constants.ElementLocators.HOME_PAGE_TITLE, Constants.ErrorMessages.HOME_PAGE_NOT_LOADED_ON_TIME);

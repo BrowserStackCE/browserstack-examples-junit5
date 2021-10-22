@@ -1,8 +1,8 @@
 package com.browserstack.examples.tests.offers;
 
 import com.browsersatck.examples.utils.UserCredentialUtil;
-import com.browserstack.examples.extensions.WebDriverTest;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
+import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
@@ -33,7 +33,7 @@ public class RegionalOffersTest {
     private static final String OFFER_LONGITUDE = "70";
 
     @Severity(SeverityLevel.CRITICAL)
-    @WebDriverTest(capabilities = {"apply_command_mask"})
+    @WebDriverTest
     public void offersLoadedTest(WebDriver webDriver) {
         navigateToHome(webDriver);
         signIntoFavouriteAccount(webDriver);

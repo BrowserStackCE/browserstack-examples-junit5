@@ -1,7 +1,7 @@
 package com.browserstack.examples.tests.login;
 
-import com.browserstack.examples.extensions.WebDriverTest;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
+import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
@@ -22,7 +22,7 @@ import static com.browserstack.examples.helpers.Constants.ErrorMessages.SIGNIN_P
 public class RedirectionTest {
 
     @Severity(SeverityLevel.MINOR)
-    @WebDriverTest(capabilities = {"apply_command_mask"})
+    @WebDriverTest
     public void favouritesRedirectsLoginTest(WebDriver webDriver) {
         navigateToHome(webDriver);
         clickOnFavourite(webDriver);

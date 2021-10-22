@@ -1,5 +1,3 @@
-name : DockerParallel
-
 testEndpoint: https://bstackdemo.com
 
 driverType: onPremGridDriver
