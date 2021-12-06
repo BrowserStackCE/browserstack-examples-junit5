@@ -45,7 +45,7 @@
         <dependency>
             <groupId>com.browserstack</groupId>
             <artifactId>webdriver-framework-junit5</artifactId>
-            <version>1.0.0</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
