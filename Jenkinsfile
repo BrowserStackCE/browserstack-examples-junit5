@@ -23,7 +23,7 @@ node {
 
     stage('Pull code from Github') {
         dir('test') {
-            git branch: 'webdriver-library', changelog: false, poll: false, url: 'https://github.com/browserstack/browserstack-examples-junit5'
+            git branch: 'main', changelog: false, poll: false, url: 'https://github.com/browserstack/browserstack-examples-junit5'
         }
     }
 
