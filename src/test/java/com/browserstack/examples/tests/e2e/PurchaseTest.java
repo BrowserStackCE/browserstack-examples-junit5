@@ -27,7 +27,7 @@ public class PurchaseTest {
     public void orderPlacementTest(WebDriver webDriver) {
         HomePage homePage = new HomePage(WebDriverFactory.getInstance().getTestEndpoint(), webDriver);
         ElementLocatorUtil.waitUntilTitleIs(webDriver, Constants.ElementLocators.HOME_PAGE_TITLE, Constants.ErrorMessages.HOME_PAGE_NOT_LOADED_ON_TIME);
-        ElementLocatorUtil.waitUntilElementVanish(webDriver, By.xpath(Constants.ElementLocators.RELOAD_SPINNER_XPATH), Constants.ErrorMessages.SPINNER_NOT_STOPPED_ON_TIME);
+        ElementLocatorUtil.waitUntilElementVanish(webDriver, By.className(Constants.ElementLocators.RELOAD_SPINNER_CLASS), Constants.ErrorMessages.SPINNER_NOT_STOPPED_ON_TIME);
         Login login = homePage.getNavBarComponent().clickSignIn();
         ElementLocatorUtil.waitUntilElementAppears(webDriver, By.id(Constants.ElementLocators.USER_INPUT_ID), Constants.ErrorMessages.SIGNIN_PAGE_NOT_LOADED_ON_TIME);
         login.loginWithFavUser(USER);

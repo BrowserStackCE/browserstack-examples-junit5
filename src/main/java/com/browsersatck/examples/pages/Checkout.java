@@ -16,11 +16,11 @@ public class Checkout {
     private static final String POST_CODE_ID = "postCodeInput";
     private static final String SUBMIT_BUTTON_ID = "checkout-shipping-continue";
 
-    private static final String FIRST_NAME = "Raveendra";
-    private static final String LAST_NAME = "Tudangil";
-    private static final String ADDRESS_LINE1 = "Mumbai";
-    private static final String PROVINCE = "Maharashtra";
-    private static final String POST_CODE = "400068";
+    private static final String FIRST_NAME = "Demo";
+    private static final String LAST_NAME = "User";
+    private static final String ADDRESS_LINE1 = "Sample Line 1";
+    private static final String PROVINCE = "Sample Line 2";
+    private static final String POST_CODE = "123456";
 
     private final WebDriver webDriver;
 

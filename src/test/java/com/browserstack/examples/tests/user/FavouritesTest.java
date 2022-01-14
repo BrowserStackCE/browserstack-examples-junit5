@@ -35,11 +35,11 @@ public class FavouritesTest {
 
     @Step("Checking favourites")
     private int testFavourites(WebDriver webDriver) {
-        webDriver.findElement(By.xpath(FAVOURITE_BUTTON_XPATH)).click();
+        webDriver.findElement(By.className(FAVOURITE_BUTTON_CLASS)).click();
         try {
-            WebDriverWaitUtil.getWebDriverWait(webDriver).until(waitWebDriver -> !waitWebDriver.findElements(By.xpath(FAVOURITE_BUTTON_CLICKED_XPATH)).isEmpty());
+            WebDriverWaitUtil.getWebDriverWait(webDriver).until(waitWebDriver -> !waitWebDriver.findElements(By.className(FAVOURITE_BUTTON_CLICKED_CLASS)).isEmpty());
         } catch (TimeoutException e) {
-            ElementLocatorUtil.waitUntilElementAppears(webDriver, By.xpath(FAVOURITE_BUTTON_CLICKED_XPATH), FAVOURITES_BUT_NOT_CLICKED_ON_TIME);
+            ElementLocatorUtil.waitUntilElementAppears(webDriver, By.className(FAVOURITE_BUTTON_CLICKED_CLASS), FAVOURITES_BUT_NOT_CLICKED_ON_TIME);
         }
         webDriver.findElement(By.id(FAVOURITES_BUTTON_ID)).click();
         ElementLocatorUtil.waitUntilURLContains(webDriver, FAVOURITES, FAVOURITES_PAGE_NOT_LOADED_ON_TIME);

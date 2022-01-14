@@ -9,7 +9,7 @@ public abstract class NavBarComponent {
 
     private static final String SIGN_IN_BUTTON_ID = "signin";
     private static final String SIGN_OUT_BUTTON_ID = "logout";
-    private static final String USER_INPUT_XPATH = "//input[@id='react-select-2-input']";
+    private static final String USER_INPUT_ID = "react-select-2-input";
     private final WebDriver webDriver;
 
     public NavBarComponent(WebDriver webDriver) {
@@ -23,7 +23,7 @@ public abstract class NavBarComponent {
 
     public Login clickSignIn() {
         webDriver.findElement(By.id(SIGN_IN_BUTTON_ID)).click();
-        WebDriverWaitUtil.getWebDriverWait(webDriver).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(USER_INPUT_XPATH)));
+        WebDriverWaitUtil.getWebDriverWait(webDriver).until(ExpectedConditions.visibilityOfElementLocated(By.id(USER_INPUT_ID)));
         return new Login(webDriver);
     }
 

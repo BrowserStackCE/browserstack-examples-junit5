@@ -13,8 +13,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class Login extends NavigablePage {
 
-    private static final String USER_INPUT_XPATH = "//input[@id='react-select-2-input']";
-    private static final String PASSWORD_INPUT_XPATH = "//*[@id=\"react-select-3-input\"]";
+    private static final String USER_INPUT_ID = "react-select-2-input";
+    private static final String PASSWORD_INPUT_ID = "react-select-3-input";
     private static final String LOGIN_BUTTON_ID = "login-btn";
     private static final String USERNAME_LABEL_CLASS = "username";
 
@@ -27,10 +27,10 @@ public class Login extends NavigablePage {
 
     @Step("Signing in with username {0} and password {1}")
     private void login(String userName, String password) {
-        WebElement userElement = webDriver.findElement(By.xpath(USER_INPUT_XPATH));
+        WebElement userElement = webDriver.findElement(By.id(USER_INPUT_ID));
         userElement.sendKeys(userName);
         userElement.sendKeys(Keys.ENTER);
-        WebElement passwordElement = webDriver.findElement(By.xpath(PASSWORD_INPUT_XPATH));
+        WebElement passwordElement = webDriver.findElement(By.id(PASSWORD_INPUT_ID));
         passwordElement.sendKeys(password);
         passwordElement.sendKeys(Keys.ENTER);
         WebElement logInButton = webDriver.findElement(By.id(LOGIN_BUTTON_ID));

@@ -18,7 +18,7 @@ public class CommonSteps {
 
     @Step("Waiting for the spinner to stop")
     public static void waitForSpinner(WebDriver webDriver) {
-        ElementLocatorUtil.waitUntilElementVanish(webDriver, By.xpath(Constants.ElementLocators.RELOAD_SPINNER_XPATH), Constants.ErrorMessages.SPINNER_NOT_STOPPED_ON_TIME);
+        ElementLocatorUtil.waitUntilElementVanish(webDriver, By.className(Constants.ElementLocators.RELOAD_SPINNER_CLASS), Constants.ErrorMessages.SPINNER_NOT_STOPPED_ON_TIME);
     }
 
     @Step("Finding the product count")

@@ -29,8 +29,8 @@ public class OrderTest {
     private int checkExistingOrders(WebDriver webDriver) {
         webDriver.findElement(By.id(Constants.ElementLocators.ORDERS_BUTTON_ID)).click();
         ElementLocatorUtil.waitUntilURLContains(webDriver, Constants.EndPoints.ORDERS, Constants.ErrorMessages.ORDERS_PAGE_NOT_LOADED_ON_TIME);
-        ElementLocatorUtil.waitUntilElementAppears(webDriver, By.xpath(Constants.ElementLocators.PRODUCT_COST_XPATH), Constants.ErrorMessages.ORDERS_NOT_LOADED_ON_TIME);
-        return webDriver.findElements(By.xpath(Constants.ElementLocators.PRODUCT_COST_XPATH)).size();
+        ElementLocatorUtil.waitUntilElementAppears(webDriver, By.className(Constants.ElementLocators.PRODUCT_COST_CLASS), Constants.ErrorMessages.ORDERS_NOT_LOADED_ON_TIME);
+        return webDriver.findElements(By.className(Constants.ElementLocators.PRODUCT_COST_CLASS)).size();
     }
 
     @Step("Signing in with existing_orders credentials")

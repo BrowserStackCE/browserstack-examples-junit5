@@ -38,7 +38,7 @@ public class Constants {
 
     public static class ElementLocators {
         public static final String HOME_PAGE_TITLE = "StackDemo";
-        public static final String RELOAD_SPINNER_XPATH = "//div[@class='spinner lds-ring']";
+        public static final String RELOAD_SPINNER_CLASS = "spinner lds-ring";
         public static final String PRODUCT_CARD_CSS = "shelf-item";
         public static final String SIGN_IN_BUTTON_ID = "signin";
         public static final String USERNAME_LABEL_CLASS = "username";
@@ -57,9 +57,9 @@ public class Constants {
         public static final String PRODUCT_IMAGE_TAG = "img";
         public static final String PRODUCT_IMAGE_SOURCE_ATTRIBUTE = "src";
         public static final String ORDERS_BUTTON_ID = "orders";
-        public static final String PRODUCT_COST_XPATH = "//span[@class='a-size-small a-color-price']";
-        public static final String FAVOURITE_BUTTON_XPATH = "//div[@class='shelf-stopper']";
-        public static final String FAVOURITE_BUTTON_CLICKED_XPATH = "//button[@class='MuiButtonBase-root MuiIconButton-root Button clicked ']";
+        public static final String PRODUCT_COST_CLASS = "a-size-small a-color-price";
+        public static final String FAVOURITE_BUTTON_CLASS = "shelf-stopper";
+        public static final String FAVOURITE_BUTTON_CLICKED_CLASS = "MuiButtonBase-root MuiIconButton-root Button clicked ";
         public static final String OFFERS_BUTTON_ID = "offers";
         public static final String OFFER_CARD_CLASS = "offer";
     }
