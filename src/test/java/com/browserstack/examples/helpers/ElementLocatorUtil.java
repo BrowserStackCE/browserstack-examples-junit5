@@ -1,6 +1,6 @@
 package com.browserstack.examples.helpers;
 
-import com.browsersatck.examples.utils.WebDriverWaitUtil;
+import com.browserstack.examples.utils.WebDriverWaitUtil;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;

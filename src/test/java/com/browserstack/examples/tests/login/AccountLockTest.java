@@ -1,6 +1,6 @@
 package com.browserstack.examples.tests.login;
 
-import com.browsersatck.examples.utils.UserCredentialUtil;
+import com.browserstack.examples.utils.UserCredentialUtil;
 import com.browserstack.examples.helpers.CommonSteps;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
 import com.browserstack.webdriver.junit5.extensions.WebDriverTest;

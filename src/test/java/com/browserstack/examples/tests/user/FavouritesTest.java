@@ -1,7 +1,7 @@
 package com.browserstack.examples.tests.user;
 
-import com.browsersatck.examples.utils.UserCredentialUtil;
-import com.browsersatck.examples.utils.WebDriverWaitUtil;
+import com.browserstack.examples.utils.UserCredentialUtil;
+import com.browserstack.examples.utils.WebDriverWaitUtil;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
 import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;

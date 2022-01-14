@@ -1,6 +1,6 @@
-package com.browsersatck.examples.pages;
+package com.browserstack.examples.pages;
 
-import com.browsersatck.examples.utils.NavBarComponent;
+import com.browserstack.examples.utils.NavBarComponent;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

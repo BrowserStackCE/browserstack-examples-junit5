@@ -1,4 +1,4 @@
-package com.browsersatck.examples.utils;
+package com.browserstack.examples.utils;
 
 import com.opencsv.CSVReader;
 

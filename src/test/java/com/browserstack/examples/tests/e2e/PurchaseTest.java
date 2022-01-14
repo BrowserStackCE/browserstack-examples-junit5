@@ -1,7 +1,7 @@
 package com.browserstack.examples.tests.e2e;
 
-import com.browsersatck.examples.pages.*;
-import com.browsersatck.examples.utils.LoggedInNavBarComponent;
+import com.browserstack.examples.pages.*;
+import com.browserstack.examples.utils.LoggedInNavBarComponent;
 import com.browserstack.examples.helpers.Constants;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
 import com.browserstack.webdriver.core.WebDriverFactory;

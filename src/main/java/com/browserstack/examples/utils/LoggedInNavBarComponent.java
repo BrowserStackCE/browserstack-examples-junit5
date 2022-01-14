@@ -1,13 +1,13 @@
-package com.browsersatck.examples.utils;
+package com.browserstack.examples.utils;
 
-import com.browsersatck.examples.pages.Orders;
+import com.browserstack.examples.pages.Orders;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoggedInNavBarComponent extends NavBarComponent {
 
     private static final String ORDERS_BUTTON_ID = "orders";
-    private static final String PRODUCT_COST_XPATH = "//span[@class='a-size-small a-color-price']";
+    private static final String PRODUCT_COST_CLASS = "a-size-small a-color-price";
     private static final String LOG_OUT_BUTTON_ID = "logout";
 
     private WebDriver webDriver;
@@ -19,7 +19,7 @@ public class LoggedInNavBarComponent extends NavBarComponent {
 
     public Orders clickOnOrders() {
         webDriver.findElement(By.id(ORDERS_BUTTON_ID)).click();
-        WebDriverWaitUtil.getWebDriverWait(webDriver).until(webDriver -> !webDriver.findElements(By.xpath(PRODUCT_COST_XPATH)).isEmpty());
+        WebDriverWaitUtil.getWebDriverWait(webDriver).until(webDriver -> !webDriver.findElements(By.className(PRODUCT_COST_CLASS)).isEmpty());
         return new Orders(webDriver);
     }
 

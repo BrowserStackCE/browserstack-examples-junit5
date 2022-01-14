@@ -1,6 +1,6 @@
-package com.browsersatck.examples.utils;
+package com.browserstack.examples.utils;
 
-import com.browsersatck.examples.pages.Login;
+import com.browserstack.examples.pages.Login;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;

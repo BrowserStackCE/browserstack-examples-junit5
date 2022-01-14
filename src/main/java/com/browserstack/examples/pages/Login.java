@@ -1,8 +1,8 @@
-package com.browsersatck.examples.pages;
+package com.browserstack.examples.pages;
 
-import com.browsersatck.examples.utils.LoggedInNavBarComponent;
-import com.browsersatck.examples.utils.UserCredentialUtil;
-import com.browsersatck.examples.utils.WebDriverWaitUtil;
+import com.browserstack.examples.utils.LoggedInNavBarComponent;
+import com.browserstack.examples.utils.UserCredentialUtil;
+import com.browserstack.examples.utils.WebDriverWaitUtil;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

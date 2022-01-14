@@ -1,4 +1,4 @@
-package com.browsersatck.examples.pages;
+package com.browserstack.examples.pages;
 
 public class Favourites {
     public Favourites() {

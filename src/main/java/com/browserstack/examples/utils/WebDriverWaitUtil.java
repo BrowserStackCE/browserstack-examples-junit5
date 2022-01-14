@@ -1,4 +1,4 @@
-package com.browsersatck.examples.utils;
+package com.browserstack.examples.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;

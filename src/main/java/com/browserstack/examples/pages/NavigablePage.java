@@ -1,7 +1,7 @@
-package com.browsersatck.examples.pages;
+package com.browserstack.examples.pages;
 
-import com.browsersatck.examples.utils.LoggedOutNavBarComponent;
-import com.browsersatck.examples.utils.NavBarComponent;
+import com.browserstack.examples.utils.LoggedOutNavBarComponent;
+import com.browserstack.examples.utils.NavBarComponent;
 import org.openqa.selenium.WebDriver;
 
 public abstract class NavigablePage {

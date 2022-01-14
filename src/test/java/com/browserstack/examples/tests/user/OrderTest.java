@@ -1,6 +1,6 @@
 package com.browserstack.examples.tests.user;
 
-import com.browsersatck.examples.utils.UserCredentialUtil;
+import com.browserstack.examples.utils.UserCredentialUtil;
 import com.browserstack.examples.helpers.CommonSteps;
 import com.browserstack.examples.helpers.Constants;
 import com.browserstack.examples.helpers.ElementLocatorUtil;

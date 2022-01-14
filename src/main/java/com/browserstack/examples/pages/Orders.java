@@ -1,4 +1,4 @@
-package com.browsersatck.examples.pages;
+package com.browserstack.examples.pages;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
