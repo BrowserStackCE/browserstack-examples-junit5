@@ -16,8 +16,8 @@ This repository includes a number of **[sample configuration files](/src/test/re
 
 | Module   | Test Case                          | Description |
   | ---   | ---                                   | --- |
-| [E2E](/src/test/java/com/browserstack/examples/tests/e2e)      | [PurchaseTest](/src/test/java/com/browserstack/examples/tests/e2e/PurchaseTest.java)                | This test scenario verifies successful product purchase lifecycle end-to-end. It demonstrates the [Page Object Model design pattern](https://www.browserstack.com/guide/page-object-model-in-selenium) and is also the default test executed in all the single test run profiles. |
-| [Login](/src/test/java/com/browserstack/examples/tests/login)    | [RedirectionTest](/src/test/java/com/browserstack/examples/tests/login/RedirectionTest.java)         | This test verifies that the user needs to login to view the favourites marked by him or her. |
+| E2E     | PurchaseTest                | This test scenario verifies successful product purchase lifecycle end-to-end. It demonstrates the [Page Object Model design pattern](https://www.browserstack.com/guide/page-object-model-in-selenium) and is also the default test executed in all the single test run profiles. |
+| Login    | RedirectionTest        | This test verifies that the user needs to login to view the favourites marked by him or her. |
 | Login    | Login as Locked User               | This test verifies the login workflow error for a locked user. |
 | Offers   | Offers for Mumbai location     | This test mocks the GPS location for Mumbai and verifies that the product offers applicable for the Mumbai location are shown.   |
 | Product  | Apply Apple Vendor Filter          | This test verifies that 9 Apple products are only shown if the Apple vendor filter option is applied. |
