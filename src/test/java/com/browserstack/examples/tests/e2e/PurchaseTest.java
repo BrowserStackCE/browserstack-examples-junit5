@@ -1,10 +1,11 @@
 package com.browserstack.examples.tests.e2e;
 
+import com.browserstack.examples.helpers.CommonSteps;
 import com.browserstack.examples.pages.*;
 import com.browserstack.examples.utils.LoggedInNavBarComponent;
 import com.browserstack.examples.helpers.Constants;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
-import com.browserstack.webdriver.core.WebDriverFactory;
+//import com.browserstack.webdriver.core.WebDriverFactory;
 import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
@@ -24,8 +25,9 @@ public class PurchaseTest {
     @Severity(SeverityLevel.CRITICAL)
     @Story(Constants.AllureTags.STORY_PURCHASE)
     @WebDriverTest
-    public void orderPlacementTest(WebDriver webDriver) {
-        HomePage homePage = new HomePage(WebDriverFactory.getInstance().getTestEndpoint(), webDriver);
+    public void orderPlacementTest(WebDriver webDriver) throws InterruptedException {
+        String homepageUrl = CommonSteps.getHomePageUrl();
+        HomePage homePage = new HomePage(homepageUrl, webDriver);
         ElementLocatorUtil.waitUntilTitleIs(webDriver, Constants.ElementLocators.HOME_PAGE_TITLE, Constants.ErrorMessages.HOME_PAGE_NOT_LOADED_ON_TIME);
         ElementLocatorUtil.waitUntilElementVanish(webDriver, By.className(Constants.ElementLocators.RELOAD_SPINNER_CLASS), Constants.ErrorMessages.SPINNER_NOT_STOPPED_ON_TIME);
         Login login = homePage.getNavBarComponent().clickSignIn();

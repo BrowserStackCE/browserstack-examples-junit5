@@ -1,6 +1,6 @@
 package com.browserstack.examples.helpers;
 
-import com.browserstack.webdriver.core.WebDriverFactory;
+//import com.browserstack.webdriver.core.WebDriverFactory;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -9,9 +9,14 @@ import org.openqa.selenium.WebElement;
 
 public class CommonSteps {
 
+    public static String getHomePageUrl() {
+        return "https://bstackdemo.com";
+    }
+
     @Step("Navigating to the home page")
     public static void navigateToHome(WebDriver webDriver) {
-        webDriver.get(WebDriverFactory.getInstance().getTestEndpoint());
+//        webDriver.get(WebDriverFactory.getInstance().getTestEndpoint());
+        webDriver.get("https://bstackdemo.com");
         ElementLocatorUtil.waitUntilTitleIs(webDriver, Constants.ElementLocators.HOME_PAGE_TITLE, Constants.ErrorMessages.HOME_PAGE_NOT_LOADED_ON_TIME);
         waitForSpinner(webDriver);
     }

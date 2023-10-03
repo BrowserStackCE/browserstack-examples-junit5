@@ -6,5 +6,5 @@ onPremDriver:
   platforms:
     - name: chrome
       browser: chrome
-      driverPath: /opt/libs/drivers/chromedriver
+      driverPath: /Users/adarsh/Downloads/chromedriver-mac-arm64/chromedriver
       capabilities:
