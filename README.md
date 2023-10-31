@@ -21,7 +21,7 @@ This repository includes a number of **[sample configuration files](/src/test/re
 
   Maven:
     ```sh
-    mvn install
+    mvn clean install
     ```
 
 ## About the tests in this repository
@@ -91,17 +91,6 @@ Note: The ChromeDriver version must match the Chrome browser version on your mac
   mvn test -P on-prem-suite
   ```
 
-  To run a specific test scenario, use the following command with the additional 'test-name' argument:
-
-  Maven:
-  ```sh
-  mvn test -P on-prem -Dtest-name="<Test scenario name>"
-  ```
-
-  where,  the argument 'test-name' can be any test name configured in this repository.
-
-  E.g. "EndToEndTest", "LockedUserTest", "ImageNotLoading" or any of the other test scenario names, as outlined in [About the tests in this repository](#About-the-tests-in-this-repository) section.
-
 - Output
 
   This run profile executes a specific test scenario on a single browser instance on your own machine.
@@ -141,7 +130,7 @@ Note:
 
 ### Run a specific test on BrowserStack
 
-In this section, we will run a single test on Chrome browser on Browserstack. To change test capabilities for this configuration, please refer to the [browserstack.yml](browserstack.yml)
+In this section, we will run a single test on Chrome browser on Browserstack. To change test capabilities for this configuration, please refer to the [capabilities-single.yml](capabilities-single.yml)
 
 - How to run the test?
 
@@ -153,18 +142,6 @@ In this section, we will run a single test on Chrome browser on Browserstack. To
   ```
 
 
-  To run a specific test scenario, use the following command with the additional 'test-name' argument:
-  Maven:
-  ```sh
-  mvn test -P bstack-single -Dtest-name="<Test scenario name>"
-  ```
-
-
-  where,  the argument 'test-name' can be any test scenario name configured in this repository.
-
-  E.g. "EndToEndTest", "LockedUserTest", "ImageNotLoading" or any of the other test scenario names, as outlined in [About the tests in this repository](#About-the-tests-in-this-repository) section.
-
-
 - Output
 
   This run profile executes a single test on a single browser on BrowserStack. Please refer to your [BrowserStack dashboard](https://automate.browserstack.com/) for test results.
@@ -172,7 +149,7 @@ In this section, we will run a single test on Chrome browser on Browserstack. To
 
 ### Run the entire test suite in parallel on multiple BrowserStack browsers
 
-In this section, we will run the tests in parallel on multiple browsers on Browserstack. Refer to the [browserstack.yml](browserstack.yml) file to change test capabilities for this configuration.
+In this section, we will run the tests in parallel on multiple browsers on Browserstack. Refer to the [capabilities-parallel.yml](capabilities-parallel.yml) file to change test capabilities for this configuration.
 
 - How to run the test?
 
@@ -187,7 +164,7 @@ In this section, we will run the tests in parallel on multiple browsers on Brows
 
 - How to run the test?
 
-  - Set browserStackLocal to true in `browserstack.yml` file
+  - Set browserStackLocal to true in `capabilities-local.yml` file
   - To run the a local testing scenario (e.g. refer BStackLocalTest) on a single BrowserStack browser using BrowserStackLocal, use the following command:
 
   Maven:
