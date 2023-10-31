@@ -58,8 +58,9 @@ For all the parallel run configuration profiles, you can configure the maximum p
 
 - BrowserStack
 
-    Navigate to [browserstack.yml](browserstack.yml)
-    set the required number of parallelsPerPlatform to a preferred number, for eg: parallelsPerPlatform = 5
+    Navigate to [capabilities-single.yml](capabilities-single.yml)
+    Set the required number of parallelsPerPlatform to a preferred number, for eg: parallelsPerPlatform = 5
+    You can even update the parallelsPerPlatform for other capability profiles. 
 
 
 # On Premise / Self Hosted
@@ -122,7 +123,7 @@ Note: The ChromeDriver version must match the Chrome browser version on your mac
   Alternatively, you can also hardcode username and access_key objects in the browserstack.yml file.
 
 Note:
-- We have configured a list of test capabilities in the [browserstack.yml](browserstack.yml) file. You can certainly update them based on your device / browser test requirements.
+- We have configured a list of test capabilities in the [capabilities-single.yml](capabilities-single.yml) and in the other capability config files. You can certainly update them based on your device / browser test requirements.
 - The exact test capability values can be easily identified using the [Browserstack Capability Generator](https://browserstack.com/automate/capabilities)
 
 
