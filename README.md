@@ -289,7 +289,7 @@ Following are the preconfigured test execution profiles available in the sample 
    <a href="#test-execution-prerequisites--2"><img src="https://img.shields.io/badge/Requires-BrowserStackAutomate-orange"/></a>
     </td>
   <td>Concurrently runs the entire test suite on a number of device/browser types on BrowserStack.</td>
-  <td><code>mvn test bstack-parallel-browsers</code></td>
+  <td><code>mvn test bstack-parallel-browsers</code></td> 
   <td><code>gradle bstack-parallel-browsers</code></td>
   <td>capabilities-parallel-browsers.yml</td>
  </tr>
@@ -299,11 +299,11 @@ Following are the preconfigured test execution profiles available in the sample 
  
  # :chart_with_upwards_trend:  [Test Results](https://github.com/browserstack/browserstack-examples-junit5#testresults)
  
- ## Viewing Allure Reports
-
- The repository is configured to generate Alllure of history with each execution. To view the results in an HTML format run the following command
+ The repository is configured to generate Alllure reports, JUNIT XML reports of history with each execution. To view the results in an HTML format run the following command
   
   <code>allure serve allure-results</code>
+
+ JUNIT XML reports are automatically available in the target/surefire-reports. You can compress this to a zip file and upload it to Test Observability for debugging and advanced reports. Refer to [Test Observability](https://www.browserstack.com/docs/test-observability/quick-start/junit-reports) for getting started. 
  
  # :card_file_box: [Additional Resources](https://github.com/browserstack/browserstack-examples-junit5#additionalresources)
 
