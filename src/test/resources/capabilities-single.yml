@@ -7,6 +7,6 @@ platforms:
     browserName: Chrome
     browserVersion: latest
 parallelsPerPlatform: 1
-browserstackLocal: true
-buildName: browserstack-build-1
-projectName: BrowserStack Sample
+browserstackLocal: false
+buildName: browserstack-single
+projectName: BrowserStack JUNIT5 Sample

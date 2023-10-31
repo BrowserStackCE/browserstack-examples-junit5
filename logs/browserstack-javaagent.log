@@ -1,0 +1,575 @@
+11:46:58.995 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+11:46:58.997 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:46:59.543 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:46:59.544 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:46:59.552 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:30:40.134 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:30:40.136 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:30:40.343 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:30:40.343 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:30:40.345 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:01:18.739 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:01:18.740 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:01:18.934 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:01:18.934 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:01:18.935 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:02:53.999 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:02:54.000 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:02:54.213 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:02:54.213 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:02:54.215 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:04:22.781 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:04:22.782 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:04:22.976 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:04:22.977 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:04:22.977 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:11:15.963 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:11:15.965 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:11:16.166 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:11:16.166 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:11:16.167 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:17:36.457 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:17:36.459 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:17:36.655 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:17:36.655 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:17:36.657 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:21:05.724 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:21:05.726 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:21:05.930 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:21:05.930 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:21:05.931 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:23:18.359 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:23:18.361 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:23:18.561 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:23:18.561 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:23:18.562 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:24:42.600 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:24:42.603 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:24:42.791 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:24:42.792 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:24:42.793 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:25:37.506 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:25:37.508 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:25:37.702 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:25:37.702 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:25:37.703 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:30:43.411 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:30:43.413 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:30:43.609 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+13:30:43.610 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+13:30:43.610 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:31:52.306 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:31:52.308 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:31:52.498 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+13:31:52.802 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+13:31:55.733 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:31:56.249 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:32:03.960 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:32:04.676 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+13:32:07.492 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:32:34.055 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b595d06b117daf56d9ac01b0eb54839baa0e8f1f
+13:32:34.056 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:32:36.805 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:22:14.719 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:22:14.721 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:22:14.915 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:22:15.208 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:22:18.183 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:22:18.734 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:22:25.807 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:22:26.502 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:22:29.378 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:22:34.055 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:30:39.169 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:30:39.170 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:30:39.368 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:30:39.654 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:30:42.590 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:30:43.133 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:30:50.405 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:30:51.124 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:30:53.859 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:30:57.602 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:33:20.123 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:33:20.125 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:33:20.375 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:33:20.664 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:33:23.497 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:33:25.136 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:33:32.402 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:33:33.094 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:33:35.899 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:33:39.559 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:35:31.556 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:35:31.558 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:35:31.751 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:35:32.044 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:35:34.597 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:35:35.101 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:35:42.284 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:35:42.987 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:35:45.764 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:35:50.387 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:38:37.309 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:38:37.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:38:37.500 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:38:37.798 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:38:40.486 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:38:41.043 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:38:48.134 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:38:48.806 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:38:51.913 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:38:57.001 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:44:22.415 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:44:22.417 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:44:22.601 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:44:22.904 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:44:25.599 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:44:26.158 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:44:33.341 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:44:34.034 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:44:36.996 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:44:40.742 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:47:28.033 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:47:28.035 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:47:28.230 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:47:28.523 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:47:31.239 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:47:31.747 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:47:38.933 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:47:39.646 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:47:42.456 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:47:46.228 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:48:26.799 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:48:26.801 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:48:27.001 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+14:48:27.002 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+14:48:27.002 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:51:21.042 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:51:21.044 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:51:21.254 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:51:21.585 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:51:24.298 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:51:24.913 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:51:32.355 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:51:33.059 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:51:35.981 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:51:39.775 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:56:15.100 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+14:56:15.101 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:56:15.296 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:56:15.601 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+14:56:18.315 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:56:18.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:56:27.993 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:56:28.738 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+14:56:31.684 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+14:56:35.784 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+15:00:36.095 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:00:36.097 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:00:36.318 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:00:36.628 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:00:39.234 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:00:39.791 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:00:47.240 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:00:47.958 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:00:50.841 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:00:54.624 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+15:28:00.919 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:28:00.922 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:28:01.125 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:28:01.427 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:28:04.215 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:28:04.764 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:28:11.838 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:28:12.527 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:28:15.422 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:28:19.044 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+15:32:39.952 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:32:39.953 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:32:40.152 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:32:40.454 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:32:43.443 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:32:43.984 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:32:51.167 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:32:51.861 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:32:54.686 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:32:58.319 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+15:34:24.952 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:34:24.955 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:34:25.177 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:34:25.177 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:34:25.179 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:35:39.261 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:35:39.263 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:35:39.455 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:35:39.456 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:35:39.456 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:36:25.143 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:36:25.146 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:36:25.344 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+15:36:25.644 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:36:28.459 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:36:29.685 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+15:36:32.587 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:36:55.484 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/500bdb430a78eedf70cdcfd3274c4689c9cb6343
+15:36:55.486 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:38:37.300 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:38:37.301 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:38:37.489 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:38:37.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:38:40.268 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:38:40.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:38:48.915 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:38:49.610 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:38:52.445 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:38:56.055 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+15:45:43.795 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:45:43.797 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:45:44.023 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:45:44.387 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:45:47.451 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:45:48.081 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:45:55.586 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:45:56.295 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:45:59.109 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:46:14.478 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/1c49cb3f961740658d258759959715ab53d824ea
+15:46:14.478 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:46:17.344 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+15:48:39.914 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:48:39.917 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:48:40.115 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:48:40.442 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:48:43.135 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:48:43.671 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:48:50.925 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:48:51.650 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:48:54.516 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:49:07.188 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/33ab4e4733032125c9006c8e0db8a442137154a3
+15:49:07.189 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:49:09.959 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+15:59:42.728 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+15:59:42.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:59:42.918 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:59:43.235 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:59:46.550 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+15:59:47.152 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:59:53.637 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:59:54.351 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+15:59:57.266 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:00:12.006 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b0f6d4e9aea980844ad28c79019d51c6f1470cc9
+16:00:12.007 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:00:14.665 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+16:00:40.075 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+16:00:40.076 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:00:40.266 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+16:00:40.561 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+16:00:42.958 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:00:43.441 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:00:50.639 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:00:51.341 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+16:00:54.202 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:01:11.146 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e82557f9084aafb992929791368c796d6f747b31
+16:01:11.147 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:01:16.022 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+19:25:25.704 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+19:25:25.706 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:25:25.912 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+19:25:26.226 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+19:25:29.208 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:25:29.816 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:25:38.706 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:25:39.600 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+19:25:42.631 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:25:54.984 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/819387c2d720b83c98508aad3ec3fba7fa802f1d
+19:25:54.985 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:25:58.956 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+19:29:43.469 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+19:29:43.471 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:29:43.667 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+19:29:43.970 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+19:29:47.905 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:29:48.504 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:29:56.269 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:29:57.488 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+19:29:57.558 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+19:29:57.561 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+19:30:01.288 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:30:01.304 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:30:01.394 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:32:46.878 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8e17fa240f9db05e859a56e685941f7ba93a9830
+19:32:46.879 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:32:49.944 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+19:33:05.789 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+19:33:05.794 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:33:06.080 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+19:33:06.630 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+19:33:09.690 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:33:10.292 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:33:18.119 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:33:18.864 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+19:33:21.788 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+19:33:34.979 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/57b0afa0bf39c58fd1890ce21989d5ce2ce66c09
+19:33:34.979 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:33:37.905 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+20:16:44.409 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+20:16:44.412 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:16:44.738 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+20:16:45.076 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+20:16:47.938 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+20:16:48.583 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+20:16:56.088 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+20:16:56.805 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+20:17:00.086 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+20:17:14.987 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/bceb4d912bfa7b5ea59b96d3ee9239842e4bff59
+20:17:14.988 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:17:17.021 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:26:51.946 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+00:26:51.949 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:26:52.147 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+00:26:52.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+00:26:55.301 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:26:55.857 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:27:06.071 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:27:07.717 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+00:27:10.762 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:27:25.859 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/798b281d9d8bd2d0fa06ee8a1e9aa143b7a4e24b
+00:27:25.860 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:27:28.879 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:29:20.351 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+00:29:20.353 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:29:20.557 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+00:29:20.838 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+00:29:23.399 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:29:23.910 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:29:39.747 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:29:40.447 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+00:29:43.287 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:29:58.087 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b0f4dc8273ca1bb584a74e2e8e29c0c4cc850705
+00:29:58.088 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:30:01.859 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:35:26.602 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+00:35:26.604 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:35:26.814 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+00:35:27.137 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+00:35:30.007 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:35:30.583 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:35:38.074 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:35:39.027 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+00:35:39.036 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+00:35:39.056 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/browserstack.yml
+00:35:41.873 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:35:41.904 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:35:41.980 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:36:51.511 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7bb29abb57c7a167e702f904e8c1ce2707ff090b
+00:36:51.512 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:36:55.455 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:51:26.177 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+00:51:26.179 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:51:26.390 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+00:51:26.690 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+00:51:29.647 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:51:30.908 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+00:51:33.725 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+00:51:55.826 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/0c5da4852b93343980416b4f3f29a3a45315d195
+00:51:55.828 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:52:43.548 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+00:52:43.550 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:52:43.736 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+00:52:43.736 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+00:52:43.737 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+00:54:20.158 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+00:54:20.160 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:54:20.373 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+00:54:20.373 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+00:54:20.374 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:46:16.067 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:46:16.069 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:46:16.328 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-parallel.yml
+13:46:16.968 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+13:46:20.222 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:46:21.836 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-parallel.yml
+13:46:21.838 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-parallel.yml
+13:46:21.845 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-parallel.yml
+13:46:25.098 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:46:25.100 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:46:25.120 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:47:33.573 [ForkJoinPool-1-worker-1] INFO  c.b.config.BrowserStackConfig - WARN
+13:47:52.656 [ForkJoinPool-1-worker-1] INFO  c.b.config.BrowserStackConfig - WARN
+13:48:01.625 [ForkJoinPool-1-worker-1] INFO  c.b.config.BrowserStackConfig - WARN
+13:53:12.502 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3b99f696841f501bdb62cf283a501fdd55294e92
+13:53:12.503 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:53:30.186 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:53:30.188 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:53:30.390 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+13:53:30.680 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+13:53:33.703 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:53:35.022 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-single.yml
+13:53:38.246 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:54:05.449 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/6f9cf4063bba447a041a4dec4711771f539771e6
+13:54:05.451 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:55:40.520 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:55:40.522 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:55:40.723 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+13:55:41.028 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+13:55:44.121 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:55:44.725 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:55:54.940 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:55:55.918 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/gitHubCloneProjects/browserstack-examples-junit5/src/test/resources/capabilities-local.yml
+13:56:00.005 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+13:56:49.073 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e004a4a5910145e3499f0426c24d30f639a8c7f3
+13:56:49.074 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:56:52.408 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
