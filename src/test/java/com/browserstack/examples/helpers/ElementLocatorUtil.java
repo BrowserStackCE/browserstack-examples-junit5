@@ -7,9 +7,9 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class ElementLocatorUtil {
+public class ElementLocatorUtil extends BaseTest {
 
-    public static void waitUntilTitleIs(WebDriver webDriver, String title, String timeOutMessage) {
+    public static void waitUntilTitleIs(String title, String timeOutMessage) {
         try {
             WebDriverWaitUtil.getWebDriverWait(webDriver).until(ExpectedConditions.titleIs(title));
         } catch (TimeoutException e) {
@@ -19,7 +19,7 @@ public class ElementLocatorUtil {
         }
     }
 
-    public static void waitUntilElementVanish(WebDriver webDriver, By by, String timeOutMessage) {
+    public static void waitUntilElementVanish(By by, String timeOutMessage) {
         try {
             WebDriverWaitUtil.getWebDriverWait(webDriver).until(waitWebDriver -> waitWebDriver.findElements(by).isEmpty());
         } catch (TimeoutException e) {
@@ -29,7 +29,7 @@ public class ElementLocatorUtil {
         }
     }
 
-    public static void waitUntilURLContains(WebDriver webDriver, String url, String timeOutMessage) {
+    public static void waitUntilURLContains(String url, String timeOutMessage) {
         try {
             WebDriverWaitUtil.getWebDriverWait(webDriver).until(ExpectedConditions.urlContains(url));
         } catch (TimeoutException e) {
@@ -39,7 +39,7 @@ public class ElementLocatorUtil {
         }
     }
 
-    public static void waitUntilElementAppears(WebDriver webDriver, By by, String timeOutMessage) {
+    public static void waitUntilElementAppears(By by, String timeOutMessage) {
         try {
             WebDriverWaitUtil.getWebDriverWait(webDriver).until(waitWebDriver -> !waitWebDriver.findElements(by).isEmpty());
         } catch (TimeoutException e) {

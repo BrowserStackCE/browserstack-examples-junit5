@@ -1,11 +1,11 @@
 package com.browserstack.examples.tests.login;
 
+import com.browserstack.examples.helpers.BaseTest;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
-import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import static com.browserstack.examples.helpers.CommonSteps.navigateToHome;
@@ -19,26 +19,26 @@ import static com.browserstack.examples.helpers.Constants.ErrorMessages.SIGNIN_P
 
 @Feature(FEATURE_LOGIN)
 @Story(STORY_REDIRECTION)
-public class RedirectionTest {
+public class RedirectionTest extends BaseTest {
 
     @Severity(SeverityLevel.MINOR)
-    @WebDriverTest
-    public void favouritesRedirectsLoginTest(WebDriver webDriver) {
-        navigateToHome(webDriver);
-        clickOnFavourite(webDriver);
-        checkRedirect(webDriver);
+    @Test
+    public void favouritesRedirectsLoginTest() {
+        navigateToHome();
+        clickOnFavourite();
+        checkRedirect();
         Assertions.assertNotEquals(-1, webDriver.getCurrentUrl().indexOf(SIGNED_IN_FAVOURITES), CLICK_FAVOURITES);
     }
 
     @Step("Clicking favourites to see if it navigates to sign in page")
-    private void clickOnFavourite(WebDriver webDriver) {
+    private void clickOnFavourite() {
         WebElement favouritesOption = webDriver.findElement(By.id(FAVOURITES_BUTTON_ID));
         favouritesOption.click();
     }
 
     @Step("Checking if it redirects to the sign in page")
-    private void checkRedirect(WebDriver webDriver) {
-        ElementLocatorUtil.waitUntilURLContains(webDriver, SIGN_IN, SIGNIN_PAGE_NOT_LOADED_ON_TIME);
+    private void checkRedirect() {
+        ElementLocatorUtil.waitUntilURLContains(SIGN_IN, SIGNIN_PAGE_NOT_LOADED_ON_TIME);
     }
 
 }
