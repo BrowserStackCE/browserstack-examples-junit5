@@ -1,13 +1,13 @@
 package com.browserstack.examples.tests.offers;
 
+import com.browserstack.examples.helpers.BaseTest;
 import com.browserstack.examples.utils.UserCredentialUtil;
 import com.browserstack.examples.helpers.ElementLocatorUtil;
-import com.browserstack.webdriver.junit5.extensions.WebDriverTest;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 
 import static com.browserstack.examples.helpers.CommonSteps.navigateToHome;
 import static com.browserstack.examples.helpers.CommonSteps.signIn;
@@ -21,7 +21,7 @@ import static com.browserstack.examples.helpers.Constants.ErrorMessages.*;
 
 @Feature(FEATURE_OFFERS)
 @Story(STORY_REGIONAL_OFFERS)
-public class RegionalOffersTest {
+public class RegionalOffersTest extends BaseTest {
 
     private static final String FAVOURITE_ACCOUNT_USER_NAME = "existing_orders_user";
     private static final String OFFER_MESSAGE = "We've promotional offers in your location.";
@@ -33,37 +33,37 @@ public class RegionalOffersTest {
     private static final String OFFER_LONGITUDE = "70";
 
     @Severity(SeverityLevel.CRITICAL)
-    @WebDriverTest
-    public void offersLoadedTest(WebDriver webDriver) {
-        navigateToHome(webDriver);
-        signIntoFavouriteAccount(webDriver);
-        mockGPS(webDriver);
-        checkIfOfferMessageAvailable(webDriver);
-        checkIfOffersAreLoaded(webDriver);
+    @Test
+    public void offersLoadedTest() {
+        navigateToHome();
+        signIntoFavouriteAccount();
+        mockGPS();
+        checkIfOfferMessageAvailable();
+        checkIfOffersAreLoaded();
     }
 
     @Step("Signing in with fav_account credentials")
-    private void signIntoFavouriteAccount(WebDriver webDriver) {
+    private void signIntoFavouriteAccount() {
         String password = UserCredentialUtil.getPassword(FAVOURITE_ACCOUNT_USER_NAME);
-        signIn(FAVOURITE_ACCOUNT_USER_NAME, password, webDriver);
-        ElementLocatorUtil.waitUntilURLContains(webDriver, SIGNED_IN, SIGNIN_NOT_COMPLETED_ON_TIME);
+        signIn(FAVOURITE_ACCOUNT_USER_NAME, password);
+        ElementLocatorUtil.waitUntilURLContains(SIGNED_IN, SIGNIN_NOT_COMPLETED_ON_TIME);
     }
 
     @Step("Mocking the GPS location")
-    private void mockGPS(WebDriver webDriver) {
+    private void mockGPS() {
         String locationScript = String.format(LOCATION_SCRIPT_FORMAT, OFFER_LATITUDE, OFFER_LONGITUDE);
         ((JavascriptExecutor) webDriver).executeScript(locationScript);
     }
 
     @Step("Checking if offers are available")
-    private void checkIfOfferMessageAvailable(WebDriver webDriver) {
+    private void checkIfOfferMessageAvailable() {
         webDriver.findElement(By.id(OFFERS_BUTTON_ID)).click();
-        ElementLocatorUtil.waitUntilURLContains(webDriver, OFFERS, OFFERS_PAGE_NOT_LOADED_ON_TIME);
+        ElementLocatorUtil.waitUntilURLContains(OFFERS, OFFERS_PAGE_NOT_LOADED_ON_TIME);
         Assertions.assertTrue(webDriver.getPageSource().contains(OFFER_MESSAGE), OFFER_MESSAGES_NOT_FOUND);
     }
 
     @Step("Checking if offers are loaded")
-    private void checkIfOffersAreLoaded(WebDriver webDriver) {
-        ElementLocatorUtil.waitUntilElementAppears(webDriver, By.className(OFFER_CARD_CLASS), NO_OFFERS_LOADED);
+    private void checkIfOffersAreLoaded() {
+        ElementLocatorUtil.waitUntilElementAppears(By.className(OFFER_CARD_CLASS), NO_OFFERS_LOADED);
     }
 }
